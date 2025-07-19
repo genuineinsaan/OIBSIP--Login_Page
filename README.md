@@ -50,5 +50,5 @@ login-authentication/
 
 ## 🙌 Credits
 
-Made with ❤️ by [Your Name] as part of the Oasis Infobyte Internship - **Level 2, Task 4**  
+Made with ❤️ by Shashank Srivastava as part of the Oasis Infobyte Internship - **Level 2, Task 4**  
 
