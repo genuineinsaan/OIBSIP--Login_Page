@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login/Register</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Login Form -->
+    <div class="form-box" id="login-box">
+      <h2>Login</h2>
+      <input type="text" id="login-username" placeholder="Username" required />
+      <div class="password-field">
+        <input type="password" id="login-password" placeholder="Password" required />
+        <span class="toggle-password" onclick="togglePassword('login-password', this)">👁️</span>
+      </div>
+      <button onclick="login()">Login</button>
+      <p>Don't have an account? <a href="#" onclick="toggleForm('register')">Register</a></p>
+    </div>
+
+    <!-- Register Form -->
+    <div class="form-box hidden" id="register-box">
+      <h2>Register</h2>
+      <input type="text" id="reg-name" placeholder="Full Name" required />
+      <input type="email" id="reg-email" placeholder="Email" required />
+      <input type="text" id="reg-username" placeholder="Username" required />
+      <div class="password-field">
+        <input type="password" id="reg-password" placeholder="Password" required />
+        <span class="toggle-password" onclick="togglePassword('reg-password', this)">👁️</span>
+      </div>
+      <div class="password-field">
+        <input type="password" id="reg-confirm" placeholder="Confirm Password" required />
+        <span class="toggle-password" onclick="togglePassword('reg-confirm', this)">👁️</span>
+      </div>
+      <button onclick="register()">Submit</button>
+      <p>Already have an account? <a href="#" onclick="toggleForm('login')">Login</a></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
