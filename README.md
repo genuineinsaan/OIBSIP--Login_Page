@@ -46,6 +46,10 @@ login-authentication/
 - JavaScript (ES6)
 - LocalStorage API
 
+## 🚀 Live Demo
+
+🔗 [Click here to view the live site](https://genuineinsaan.github.io/OIBSIP--Login_Page/)
+
 ---
 
 ## 🙌 Credits
